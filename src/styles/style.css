@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+h1,h2,h3,h4{
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5,h6,p{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-kedua{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-ketiga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+button, input{
+    font-family: 'Roboto', sans-serif;  
+}
+
+button:hover{
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+.CTA {
+    border-radius: 50px;
+    background-color: #fa80fa;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 50px 0px;
+}
